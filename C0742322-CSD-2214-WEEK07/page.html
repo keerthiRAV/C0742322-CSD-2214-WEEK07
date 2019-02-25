@@ -2,20 +2,23 @@
 <html>
 <head>
     <title></title>
-</head>
-<script>
-    function add() {
-        var sum = 0;
-        for (i - 117; i <= 11; i = i - 8) {
-            document.write(i);
-            sum = sum + i;
-            alert(i);
+    <script type="text/javascript">
+        function add() {
+            var sum = 0;
+            for (i = 117; i >= 11; i=i-8) {
+                document.writeln(i);
+                sum = sum + i;
+            }
+            alert("sum is " + sum);
         }
-    }
-</script>
+    </script>
+</head>
+
 <body>
-    <div>Content goes
     <button onclick="add()">check</button>
+    <div id="s">
+        Content goes
     </div>
+
 </body>
 </html>
